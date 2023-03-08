@@ -1,7 +1,7 @@
 package myjava;
 
 public class Rotate {
-    public void rotate(int[][] matrix) {
+    public static void rotate(int[][] matrix) {
         int n = matrix.length;
         int l = 0, r = n - 1;
         while (l < r) {
