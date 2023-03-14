@@ -13,7 +13,9 @@ import java.util.Queue;
 
 public class Hello {
     public static void main(String[] args) {
-        int[] a = { 2, 0, 2, 1, 1, 0 };
-        new SortColors().sortColors(a);
+        int[] a = { 1, 2, 3 };
+        Subsets s = new Subsets();
+        s.subsets(a);
+        System.out.println(s.res);
     }
 }
